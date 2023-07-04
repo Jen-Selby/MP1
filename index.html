@@ -8,6 +8,8 @@
     <title>Happy Tails Secure Dog Field</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
@@ -32,19 +34,29 @@
             <div class="col-4">
             </div>
             <div class="col-4">
-                <nav class="navbar navbar-expand-lg">
-                    <ul id="menu">
-                        <li>
-                            <a class="active" href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Prices & Booking</a>
-                        </li>
-                        <li>
-                            <a href="#">Gallery</a>
-                        </li>
+                <nav class="navbar navbar-expand-lg sticky-top justify-content-cente">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navdropdown">
+                            <!-- <span><i class="fa-solid fa-bars"></i></span> -->
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <!-- <a class="navbar-brand" href="#">test</a> -->
+                    </div>
 
-                    </ul>
+                    <div class="collapse navbar-collapse justify-content-cente" id="navdropdowne">
+                        <ul id="menu" class="nav navbar-nav">
+                            <li class="active">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">Prices & Booking</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">Gallery</a>
+                            </li>
+
+                        </ul>
+                    </div>
                 </nav>
             </div>
         </div>

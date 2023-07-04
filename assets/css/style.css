@@ -25,9 +25,15 @@ a {
 }
 
 h1 {
-    font-size: 30px ;
+    font-size: 30px;
 }
 
 h2 {
-    font-size: 22px ;
+    font-size: 22px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #D6D3F0;
+}
 }
