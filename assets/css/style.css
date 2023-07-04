@@ -1,6 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css?family=Montserrato:100,200,300,400,500'); */
-
-
 body {
     font-size: 22px;
     font-family: 'Montserrat', serif;
@@ -36,4 +33,46 @@ h2 {
     text-decoration: underline;
     color: #D6D3F0;
 }
+
+footer {
+    background-color: #14281D;
+    color: #D6D3F0;
+}
+
+.footertext {
+    color: #D6D3F0;
+    font-size: 8px;
+    margin: 0px;
+}
+
+.footertext > p {
+    color: #D6D3F0;
+    font-size: 4px;
+}
+.companyinfo {
+    text-align: left;
+}
+
+.contactinfo {
+    text-align: center;
+}
+
+.socials {
+    align-items: right;
+}
+.sociallinks li a i:hover {
+    color: #648381;
+    align-items: right;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+.footertext {
+        color: #D6D3F0;
+        font-size:16px;
+        margin: 0px;
+    }
+
+
 }
