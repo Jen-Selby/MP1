@@ -1,0 +1,33 @@
+/* @import url('https://fonts.googleapis.com/css?family=Montserrato:100,200,300,400,500'); */
+
+
+body {
+    font-size: 22px;
+    font-family: 'Montserrat', serif;
+}
+
+header {
+    background-color: #14281D;
+    color: #D6D3F0;
+}
+
+a {
+    color: #D6D3F0;
+    text-decoration: none;
+}
+
+.logo {
+    background: url("../images/logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 180px;
+}
+
+h1 {
+    font-size: 30px ;
+}
+
+h2 {
+    font-size: 22px ;
+}
