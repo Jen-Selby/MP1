@@ -61,12 +61,12 @@ footer {
     text-align: center;
 }
 
-.socials {
-    align-items: right;
+.social-links {
+    float: right ;
+    padding-right: 15px ;
 }
 .sociallinks li a i:hover {
     color: #648381;
-    align-items: right;
 }
 
 #galleryimages {
@@ -80,6 +80,10 @@ footer {
     max-width: 180px;
     margin: 0;
     padding: 0;
+}
+
+.test { 
+    color:red;
 }
 
 @media only screen and (min-width: 768px) {
