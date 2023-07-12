@@ -239,53 +239,79 @@ iframe {
     height: 500px;
 }
 
-/* prices & booking page */
+/* Prices & Booking page */
 
 .pricessection {
     clear: left;
     background: url("../images/image4.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 70vh;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .pricestext {
 
-    margin-top: 50px;
+    margin-top: 53vh;
     color: #fff;
-    background-color: rgba(100, 131, 129, 0.6);
-    max-width: 300px;
+    background-color: rgba(100, 131, 129, 0.9);
+    max-width: 250px;
     position: absolute;
     left: 10%;
-    padding: 10px;
-    font-size: 18px;
+    padding: 5px;
+    font-size: 12px;
     width: 60%;
 }
 
-/* form */
+.pricestext h2 {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.pricestext ul {
+    padding-left: 7vw;
+}
+
+/*prices & booking page - form */
 
 .bookingsection {
     background: rgba(100, 131, 129, 0.6);
+    margin-top: 0;
+    padding-top: 1px;
 }
 
 fieldset {
-    margin: 2em 0;
-    padding: 1em 2em;
-    border: solid 1px #ccc;
+    margin: 1em 0;
+    padding: 1em 1em;
+    /* border: solid 1px #ccc; */
     border-radius: 6px;
     min-width: 200px;
-    color: red;
+    color: #14281D;
 }
 
 legend {
-    font-size: 1.25em;
+    font-size: 1em;
     padding: 0 .25em;
-    color: #999;
+    color: #14281D;
+}
+
+.bookingdesc {
+    font-size: 0.6em;
+    font-style: italic;
+    padding-bottom: 1em;
 }
 
 label {
     display: block;
     margin-top: 0;
+    font-size: 0.6em;
+}
+
+#dow,
+#ts {
+    font-size: 0.8em;
+    padding-top: 20px;
 }
 
 .radio label {
@@ -297,14 +323,36 @@ label:first-of-type {
 }
 
 input {
-    padding: 5em;
+    /* padding: 5em; */
     border: solid 1px #999;
 }
 
-input[type="email"],
+input[type="email"] {
+    width: 15em;
+}
+
 input[type="text"] {
     width: 15em;
 }
+
+.radios {
+    margin-bottom: 1em;
+}
+
+.radios label {
+    display: inline-block;
+}
+
+input[type="radio"] {
+    display: inline-block;
+    padding-top: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
 
 @media only screen and (min-width: 768px) {
 
@@ -418,5 +466,107 @@ input[type="text"] {
         background-size: cover;
     }
 
+    /* prices & booking page */
+
+    .pricessection {
+        clear: left;
+        background: url("../images/image4.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 82vh;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .pricestext {
+
+        margin-top: 55vh;
+        color: #fff;
+        background-color: rgba(100, 131, 129, 0.9);
+        max-width: 350px;
+        position: absolute;
+        left: 10%;
+        padding: 10px;
+        font-size: 18px;
+        width: 70%;
+    }
+
+    /* form */
+
+    .bookingsection {
+        background: rgba(100, 131, 129, 0.6);
+        margin-top: 0;
+        padding-top: 1px;
+    }
+
+    fieldset {
+        margin: 2em 0;
+        padding: 1em 2em;
+        /* border: solid 1px #ccc; */
+        border-radius: 6px;
+        min-width: 200px;
+        color: #14281D;
+    }
+
+    legend {
+        font-size: 1.25em;
+        padding: 0 .25em;
+        color: #14281D;
+    }
+
+    .bookingdesc {
+        font-size: 0.75em;
+        font-style: italic;
+        padding-bottom: 1em;
+    }
+
+    label {
+        display: block;
+        margin-top: 0;
+        font-size: 0.8em;
+    }
+
+    #dow,
+    #ts {
+        font-size: 1em;
+        padding-top: 20px;
+    }
+
+    .radio label {
+        margin-top: 0;
+    }
+
+    label:first-of-type {
+        margin-top: 0;
+    }
+
+    input {
+        /* padding: 5em; */
+        border: solid 1px #999;
+    }
+
+    input[type="email"] {
+        width: 15em;
+    }
+
+    input[type="text"] {
+        width: 15em;
+    }
+
+    .radios {
+        margin-bottom: 1em;
+    }
+
+    .radios label {
+        display: inline-block;
+    }
+
+    input[type="radio"] {
+        display: inline-block;
+        padding-top: 0;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
 
 }

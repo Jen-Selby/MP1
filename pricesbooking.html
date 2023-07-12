@@ -82,8 +82,10 @@
         <form method="post" action="#" class="bookingform">
             <fieldset>
                 <legend>Booking Request Form</legend>
-                <h3>Please complete the below form to request a booking, you will be contacted to confirm your slot is
-                    booked or offer alternatives if not the slot available.<i class="fas fa-heartbeat"></i></h3>
+                <h3 class="bookingdesc">Please complete the below form to request a booking, you will be contacted to
+                    confirm your slot is
+                    booked or offer alternatives if not the slot available.
+                </h3>
 
                 <label for="firstname">First Name</label>
                 <input type="text" id="firstname" name="first_name" required class="textinput">
@@ -96,48 +98,58 @@
 
                 <label for="number">Phone Number</label>
                 <input type="tel" id="number" name="phone_number" required class="textinput">
+                <div class="radios">
+                    <h4 id="dow">Day of the week:</h4>
 
-                <h4>Day of the week:</h4>
-                <label for="mon">Monday</label>
-                <input type="radio" id="mon" name="daysofweek" value="Monday" required>
-                <label for="mon">Tuesday</label>
-                <input type="radio" id="mon" name="daysofweek" value="Tuesday" required>
-                <label for="mon">Wednesday</label>
-                <input type="radio" id="mon" name="daysofweek" value="Wednesday" required>
-                <label for="mon">Thursday</label>
-                <input type="radio" id="mon" name="daysofweek" value="Thursday" required>
-                <label for="mon">Friday</label>
-                <input type="radio" id="mon" name="daysofweek" value="Friday" required>
-                <label for="mon">Saturday</label>
-                <input type="radio" id="mon" name="daysofweek" value="Saturday" required>
-                <label for="mon">Sunday</label>
-                <input type="radio" id="mon" name="daysofweek" value="Sunday" required>
+                    <input type="radio" id="mon" name="daysofweek" value="Monday" required>
+                    <label for="mon">Monday</label>
 
-                <h4>Time Slot:</h4>
-                <label for="1">7am-8am</label>
-                <input type="radio" id="1" name="timeslot" value="7am-8am" required>
-                <label for="1">8am-9am</label>
-                <input type="radio" id="2" name="timeslot" value="8am-9am" required>
-                <label for="1">9am-10am</label>
-                <input type="radio" id="3" name="timeslot" value="9am-10am" required>
-                <label for="1">10am-11am</label>
-                <input type="radio" id="4" name="timeslot" value="10am-11am" required>
-                <label for="1">11am-12pm</label>
-                <input type="radio" id="5" name="timeslot" value="11am-12pm" required>
-                <label for="1">12pm-1pm</label>
-                <input type="radio" id="6" name="timeslot" value="12pm-1pm" required>
-                <label for="1">1pm-2pm</label>
-                <input type="radio" id="7" name="timeslot" value="1pm-2pm" required>
-                <label for="1">2pm-3pm</label>
-                <input type="radio" id="8" name="timeslot" value="2pm-3pm" required>
-                <label for="1">3pm-4pm</label>
-                <input type="radio" id="9" name="timeslot" value="3pm-4pm" required>
-                <label for="1">4pm-5pm</label>
-                <input type="radio" id="10" name="timeslot" value="4pm-5pm" required>
-                <label for="1">5pm-6pm</label>
-                <input type="radio" id="10" name="timeslot" value="5pm-6pm" required>
+                    <input type="radio" id="tue" name="daysofweek" value="Tuesday" required>
+                    <label for="tue">Tuesday</label>
 
-                <input type="submit" value="Send Booking Request" class="submitbutton">
+                    <input type="radio" id="wed" name="daysofweek" value="Wednesday" required>
+                    <label for="wed">Wednesday</label>
+
+                    <input type="radio" id="thu" name="daysofweek" value="Thursday" required>
+                    <label for="thu">Thursday</label>
+
+                    <input type="radio" id="fri" name="daysofweek" value="Friday" required>
+                    <label for="fri">Friday</label>
+
+                    <input type="radio" id="sat" name="daysofweek" value="Saturday" required>
+                    <label for="sat">Saturday</label>
+
+                    <input type="radio" id="sun" name="daysofweek" value="Sunday" required>
+                    <label for="sun">Sunday</label>
+
+
+                    <h4 id="ts">Time Slot:</h4>
+                    <input type="radio" id="1" name="timeslot" value="7am-8am" required>
+                    <label for="1">7am-8am</label>
+                    <input type="radio" id="2" name="timeslot" value="8am-9am" required>
+                    <label for="1">8am-9am</label>
+                    <input type="radio" id="3" name="timeslot" value="9am-10am" required>
+                    <label for="1">9am-10am</label>
+                    <input type="radio" id="4" name="timeslot" value="10am-11am" required>
+                    <label for="1">10am-11am</label>
+                    <input type="radio" id="5" name="timeslot" value="11am-12pm" required>
+                    <label for="1">11am-12pm</label>
+                    <input type="radio" id="6" name="timeslot" value="12pm-1pm" required>
+                    <label for="1">12pm-1pm</label>
+                    <input type="radio" id="7" name="timeslot" value="1pm-2pm" required>
+                    <label for="1">1pm-2pm</label>
+                    <input type="radio" id="8" name="timeslot" value="2pm-3pm" required>
+                    <label for="1">2pm-3pm</label>
+                    <input type="radio" id="9" name="timeslot" value="3pm-4pm" required>
+                    <label for="1">3pm-4pm</label>
+                    <input type="radio" id="10" name="timeslot" value="4pm-5pm" required>
+                    <label for="1">4pm-5pm</label>
+                    <input type="radio" id="10" name="timeslot" value="5pm-6pm" required>
+                    <label for="1">5pm-6pm</label>
+
+                </div>
+
+                <input type="submit" value="Send Booking Request" class="submitbutton btn btn-secondary">
         </form>
         </fieldset>
 
