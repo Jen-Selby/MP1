@@ -21,6 +21,11 @@ a {
     min-height: 180px;
 }
 
+.headerdiv {
+    display: inline-block;
+    /* float: left; */
+}
+
 h1 {
     font-size: 30px;
 }
@@ -232,6 +237,73 @@ hr {
 iframe {
     width: 80%;
     height: 500px;
+}
+
+/* prices & booking page */
+
+.pricessection {
+    clear: left;
+    background: url("../images/image4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.pricestext {
+
+    margin-top: 50px;
+    color: #fff;
+    background-color: rgba(100, 131, 129, 0.6);
+    max-width: 300px;
+    position: absolute;
+    left: 10%;
+    padding: 10px;
+    font-size: 18px;
+    width: 60%;
+}
+
+/* form */
+
+.bookingsection {
+    background: rgba(100, 131, 129, 0.6);
+}
+
+fieldset {
+    margin: 2em 0;
+    padding: 1em 2em;
+    border: solid 1px #ccc;
+    border-radius: 6px;
+    min-width: 200px;
+    color: red;
+}
+
+legend {
+    font-size: 1.25em;
+    padding: 0 .25em;
+    color: #999;
+}
+
+label {
+    display: block;
+    margin-top: 0;
+}
+
+.radio label {
+    margin-top: 0;
+}
+
+label:first-of-type {
+    margin-top: 0;
+}
+
+input {
+    padding: 5em;
+    border: solid 1px #999;
+}
+
+input[type="email"],
+input[type="text"] {
+    width: 15em;
 }
 
 @media only screen and (min-width: 768px) {
