@@ -21,52 +21,41 @@
 
 
 <body>
-    <header>
-        <div class="row">
-            <div class="col-1">
-
-                <a class="logo" href="index.html"></a>
+    <!-- Navigation bar -->
+    <header class="header">
+        <!-- Logo -->
+        <div class="headerdiv row">
+            <div class="col-2 col-md-2 col-lg-1 col-xl-1 headerrow">
+                <a href="index.html" class="logo"></a>
+                <!-- <div class="headertext"> -->
             </div>
-            <div class="col-3">
-                <!-- <a href="index.html"> -->
-                <h1>Happy Tails Secure Dog Field</h1>
-                <h2>A safe space for every dog to play</h2>
-                <!-- </a> -->
+            <div class="col-8 col-md-4 col-lg-5 col-xl-5 headerrow">
+                <h1 class="headertext">Happy Tails Secure Dog Field</h1>
+                <!-- <br>
+                <h2 class="headertext">A safe space for every dog to play</h2> -->
+                <!-- </div> -->
+                <!-- Hamburger icon -->
             </div>
-            <div class="col-4">
-            </div>
-            <div class="col-4">
-                <nav class="navbar navbar-expand-lg sticky-top justify-content-cente">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navdropdown">
-                            <!-- <span><i class="fa-solid fa-bars"></i></span> -->
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <!-- <a class="navbar-brand" href="#">test</a> -->
-                    </div>
 
-                    <div class="collapse navbar-collapse justify-content-cente" id="navdropdowne">
-                        <ul id="menu" class="nav navbar-nav">
-                            <li>
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="pricesbooking.html">Prices & Booking</a>
-                            </li>
-                            <li class="active">
-                                <a class="nav-link" href="gallery.html">Gallery</a>
-                            </li>
+            <!-- <div class="col-1 col-md-1 headerrow">
+    
+                </div> -->
 
-                        </ul>
-                    </div>
+            <div class="col-2 col-md-6 col-lg-6 col-xl-6 headerrow">
+                <input class="side-menu" type="checkbox" id="side-menu" />
+                <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+                <!-- Menu -->
+                <nav class="nav">
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="pricesbooking.html">Prices & Booking</a> </li>
+                        <li><a href="gallery.html" class="active">Gallery</a></li>
+                    </ul>
                 </nav>
             </div>
         </div>
     </header>
-    <!-- 
-    <div>
-        <a class="logo" href="index.html"></a>
-    </div> -->
+
 
     <section id="galleryimages">
         <img src="assets/images/image4.jpg" alt="small white dog lying in grass">

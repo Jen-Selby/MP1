@@ -10,8 +10,8 @@
         type="text/css" />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" -->
-    <!-- type="text/css" /> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
     <link href="assets/css/style2.css" rel="stylesheet" type="text/css" />
@@ -22,44 +22,36 @@
 </head>
 
 <body>
-    <header>
-        <div class="row">
-            <div class="col-1">
-
-                <a class="logo" href="index.html"></a>
+    <!-- Navigation bar -->
+    <header class="header">
+        <!-- Logo -->
+        <div class="headerdiv row">
+            <div class="col-2 col-md-2 col-lg-1 col-xl-1 headerrow">
+                <a href="index.html" class="logo"></a>
+                <!-- <div class="headertext"> -->
             </div>
-            <div class="col-3">
-                <!-- <a href="index.html"> -->
-                <h1>Happy Tails Secure Dog Field</h1>
-                <h2>A safe space for every dog to play</h2>
-                <!-- </a> -->
+            <div class="col-8 col-md-4 col-lg-5 col-xl-5 headerrow">
+                <h1 class="headertext">Happy Tails Secure Dog Field</h1>
+                <!-- <br>
+                <h2 class="headertext">A safe space for every dog to play</h2> -->
+                <!-- </div> -->
+                <!-- Hamburger icon -->
             </div>
-            <div class="col-4">
-            </div>
-            <div class="col-4">
-                <nav class="navbar navbar-expand-lg sticky-top justify-content-cente">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navdropdown">
-                            <!-- <span><i class="fa-solid fa-bars"></i></span> -->
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <!-- <a class="navbar-brand" href="#">test</a> -->
-                    </div>
 
-                    <div class="collapse navbar-collapse justify-content-cente" id="navdropdowne">
-                        <ul id="menu" class="nav navbar-nav">
-                            <li class="active">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="pricesbooking.html">Prices & Booking</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="gallery.html">Gallery</a>
-                            </li>
+            <!-- <div class="col-1 col-md-1 headerrow">
+    
+                </div> -->
 
-                        </ul>
-                    </div>
+            <div class="col-2 col-md-6 col-lg-6 col-xl-6 headerrow">
+                <input class="side-menu" type="checkbox" id="side-menu" />
+                <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+                <!-- Menu -->
+                <nav class="nav">
+                    <ul class="menu">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="pricesbooking.html">Prices & Booking</a> </li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
                 </nav>
             </div>
         </div>
@@ -126,9 +118,12 @@
         </div>
     </section>
 
-    <div class="mapcontainer"> 
+    <div class="mapcontainer">
         <h1 class="maptitle">How to find us:</h1>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.4309042634623!2d-3.2415887235604313!3d51.56033367182542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e197ab4d02b0f%3A0xacbe135722368ef8!2sBlackbrook%20Rd%2C%20Caerphilly%20CF83%201NF!5e0!3m2!1sen!2suk!4v1688757249056!5m2!1sen!2suk"width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.4309042634623!2d-3.2415887235604313!3d51.56033367182542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e197ab4d02b0f%3A0xacbe135722368ef8!2sBlackbrook%20Rd%2C%20Caerphilly%20CF83%201NF!5e0!3m2!1sen!2suk!4v1688757249056!5m2!1sen!2suk"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     </div>div>
 
