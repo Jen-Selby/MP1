@@ -54,17 +54,18 @@ ul {
 
 }
 
-h1,
+/* h1,
 h2 {
     color: #D6D3F0;
     font-size: 100%;
-}
+} */
 
 .headertext {
     float: left;
     font-size: 1.1em;
     padding-top: 25px;
     padding-left: 3px;
+    color: #D6D3F0;
 }
 
 /*  Nav menu  */
@@ -86,7 +87,8 @@ h2 {
 }
 
 .active {
-    border-bottom: 1px solid #D6D3F0;
+    /* border-bottom: 1px solid #D6D3F0; */
+    text-decoration: underline;
 }
 
 .menu a:hover {
@@ -292,24 +294,27 @@ p {
 
 #left-about {
     padding-top: 30px;
-    width: 80%;
+    width: 90%;
     text-align: center;
     margin: 0 auto;
     font-size: 14px;
+    /* float: left; */
+    padding-left: 10vw
 }
 
 #right-about {
     padding-top: 350px;
-    width: 80%;
+    width: 90%;
     text-align: center;
     margin: 0 auto;
     font-size: 14px;
     float: right;
+    padding-right: 10vw;
 }
 
 #center-about {
     width: 80%;
-    margin: 0 20px;
+    margin: 0 35px;
 }
 
 hr {
@@ -337,18 +342,18 @@ hr {
     margin-bottom: 50px;
 }
 
-.right-about-heading h2 {
+/* .right-about-heading h2 {
     text-align: right;
-}
+} */
 
 .facilitiestext {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #factilitiestitle {
     margin: 20px 0;
     text-align: center;
-    font-size: 100%;
+    font-size: 120%;
 }
 
 #circle-container {
@@ -520,6 +525,10 @@ input[type="radio"] {
     .headertext {
         font-size: 1.2em;
     }
+
+    .facilitiestext {
+        font-size: 16px;
+    }
 }
 
 /* Responsiveness medium- large */
@@ -629,7 +638,7 @@ input[type="radio"] {
 
     #center-about {
         width: 33%;
-        margin: 130px auto 0 auto;
+        margin: 140px auto 0 auto;
     }
 
     hr {
@@ -639,7 +648,7 @@ input[type="radio"] {
     }
 
     .left-about-heading {
-        width: 50%;
+        width: 90%;
         float: right;
         line-height: 20px;
         clear: both;
@@ -647,7 +656,7 @@ input[type="radio"] {
     }
 
     .right-about-heading {
-        width: 50%;
+        width: 90%;
         float: left;
         line-height: 20px;
         clear: both;
@@ -665,12 +674,12 @@ input[type="radio"] {
     #factilitiestitle {
         margin: 20px 0;
         text-align: center;
-        font-size: 280%;
+        font-size: 220%;
     }
 
     #circle-container {
-        width: 300px;
-        height: 300px;
+        width: 220px;
+        height: 220px;
         padding: 30px;
         border-style: solid;
         border-color: #cccccc;
@@ -822,6 +831,35 @@ input[type="radio"] {
         color: #D6D3F0;
         font-size: 140%;
     }
+
+    /* Home page - facilites section */
+    #factilitiestitle {
+        font-size: 230%;
+    }
+
+    .left-about-heading {
+        width: 90%;
+    }
+
+    .right-about-heading {
+        width: 90%;
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #circle-container {
+        width: 300px;
+        height: 300px;
+    }
+
+    #center-about {
+        margin: 90px auto 0 auto;
+    }
+
 }
 
 
@@ -832,5 +870,21 @@ input[type="radio"] {
         padding-top: 25px;
         padding-left: 20px;
         font-size: 1.5em;
+    }
+
+    /* Home page - facilites section */
+
+    .left-about-heading {
+        width: 75%;
+    }
+
+    .right-about-heading {
+        width: 75%;
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
     }
 }
