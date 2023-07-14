@@ -222,13 +222,19 @@ footer {
 
 .social-links {
     float: right;
-    padding-right: 15px;
+    padding-right: 25px;
+
 }
 
-.sociallinks li a i:hover {
+.socialicon {
+    color: #D6D3F0;
+}
+
+.socialicon i:hover {
     color: #648381;
 }
 
+/* gallery page */
 #galleryimages {
     column-count: 2;
     clear: both;
