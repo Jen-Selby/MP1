@@ -1,3 +1,10 @@
+/* Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-size: 22px;
     font-family: 'Montserrat', serif;
@@ -8,18 +15,6 @@ body {
 .headerrow {
     display: inline-block;
 }
-
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* body {
-    background-color: var(--white);
-    font-family: "Poppins", sans-serif;
-} */
 
 a {
     text-decoration: none;
@@ -54,12 +49,6 @@ ul {
 
 }
 
-/* h1,
-h2 {
-    color: #D6D3F0;
-    font-size: 100%;
-} */
-
 .headertext {
     float: left;
     font-size: 1.1em;
@@ -87,7 +76,6 @@ h2 {
 }
 
 .active {
-    /* border-bottom: 1px solid #D6D3F0; */
     text-decoration: underline;
 }
 
@@ -163,29 +151,6 @@ h2 {
     top: 0;
 }
 
-/* header {
-    background-color: #14281D;
-    color: #D6D3F0;
-}
-
-a {
-    color: #D6D3F0;
-    text-decoration: none;
-}
-
-.logo {
-    background: url("../images/logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 180px;
-}
-
-.headerdiv {
-    display: inline-block;
-
-} */
-
 h1 {
     font-size: 30px;
 }
@@ -236,14 +201,14 @@ footer {
 
 /* gallery page */
 #galleryimages {
-    column-count: 2;
+    column-count: 1;
     clear: both;
     line-height: 0;
     column-gap: 0px;
 }
 
 #galleryimages>img {
-    max-width: 180px;
+    width: 100vw;
     margin: 0;
     padding: 0;
 }
@@ -304,7 +269,6 @@ p {
     text-align: center;
     margin: 0 auto;
     font-size: 14px;
-    /* float: left; */
     padding-left: 10vw
 }
 
@@ -336,7 +300,7 @@ hr {
     line-height: 20px;
     clear: both;
     text-align: center;
-    margin: 0 a
+    margin: 0;
 }
 
 .right-about-heading {
@@ -347,10 +311,6 @@ hr {
     text-align: center;
     margin-bottom: 50px;
 }
-
-/* .right-about-heading h2 {
-    text-align: right;
-} */
 
 .facilitiestext {
     font-size: 14px;
@@ -446,7 +406,6 @@ iframe {
 fieldset {
     margin: 1em 0;
     padding: 1em 1em;
-    /* border: solid 1px #ccc; */
     border-radius: 6px;
     min-width: 200px;
     color: #14281D;
@@ -485,7 +444,6 @@ label:first-of-type {
 }
 
 input {
-    /* padding: 5em; */
     border: solid 1px #999;
 }
 
@@ -534,6 +492,14 @@ input[type="radio"] {
 
     .facilitiestext {
         font-size: 16px;
+    }
+
+    #galleryimages {
+        column-count: 2;
+    }
+
+    #galleryimages>img {
+        width: 50vw;
     }
 }
 
@@ -602,7 +568,7 @@ input[type="radio"] {
     }
 
     #galleryimages>img {
-        max-width: 330px;
+        width: 34vw;
         margin: 0;
         padding: 0;
     }
