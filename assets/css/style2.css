@@ -38,20 +38,20 @@ ul {
 .logo {
     display: inline-block;
     background-image: url("../images/logo.jpg");
-    margin-left: 5px;
+    margin-left: 0px;
     margin-top: 10px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 65px;
-    width: 65px;
+    min-height: 50px;
+    width: 50px;
     border-radius: 50%;
 
 }
 
 .headertext {
     float: left;
-    font-size: 1.1em;
+    font-size: 70%;
     padding-top: 25px;
     padding-left: 3px;
     color: #D6D3F0;
@@ -72,7 +72,7 @@ ul {
     display: block;
     padding: 30px;
     color: #D6D3F0;
-    font-size: 160%;
+    font-size: 70%;
 }
 
 .active {
@@ -91,7 +91,7 @@ ul {
 /* Menu Icon */
 .hamb {
     cursor: pointer;
-    padding: 40px 20px;
+    padding: 30px 0px;
 }
 
 /* Style label tag */
@@ -481,13 +481,17 @@ input[type="radio"] {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        min-height: 80px;
-        width: 80px;
+        min-height: 60px;
+        width: 60px;
         border-radius: 50%;
     }
 
     .headertext {
-        font-size: 1.2em;
+        font-size: 70%;
+    }
+
+    .menu a {
+        font-size: 70%;
     }
 
     .facilitiestext {
@@ -509,22 +513,21 @@ input[type="radio"] {
     .logo {
         display: inline-block;
         background-image: url("../images/logo.jpg");
-        /* font-size: 60px; */
-        margin-left: 20px;
+        margin-left: 10px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        /* min-height: 100px;
-        width: 100px; */
+        min-height: 70px;
+        width: 70px;
         border-radius: 50%;
 
     }
 
     .headertext {
         float: left;
-        font-size: 1.3em;
+        font-size: 70%;
         padding-top: 20px;
-        padding-left: 10px;
+        padding-left: 5px;
     }
 
     .nav {
@@ -544,7 +547,7 @@ input[type="radio"] {
         display: block;
         padding: 20px;
         color: #D6D3F0;
-        font-size: 1em;
+        font-size: 70%;
     }
 
     .menu a:hover {
@@ -788,12 +791,12 @@ input[type="radio"] {
     .headertext {
         padding-top: 25px;
         padding-left: 40px;
-        font-size: 1.5em;
+        font-size: 100%;
     }
 
     .logo {
-        min-height: 100px;
-        width: 100px;
+        min-height: 80px;
+        width: 80px;
         margin-left: 10px;
     }
 
@@ -801,7 +804,7 @@ input[type="radio"] {
         display: block;
         padding: 20px;
         color: #D6D3F0;
-        font-size: 140%;
+        font-size: 100%;
     }
 
     /* Home page - facilites section */
@@ -838,10 +841,22 @@ input[type="radio"] {
 /* responsiveness - xlarge */
 
 @media (min-width: 1200px) {
+
+    /* Header */
+    .logo {
+        min-height: 100px;
+        width: 100px;
+        margin-left: 10px;
+    }
+
     .headertext {
         padding-top: 25px;
         padding-left: 20px;
-        font-size: 1.5em;
+        font-size: 1.35em;
+    }
+
+    .menu a {
+        font-size: 120%;
     }
 
     /* Home page - facilites section */
