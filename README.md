@@ -1,6 +1,6 @@
 <h1 align="center">Milestone Project 1 – Happy Tails Website</h1>
 
-[View the live project here](jen-selby.github.io.)
+[View the live project here](https://jen-selby.github.io/MP1/)
 
 Happy Tails website is a site that aims to meet both the business and user/customer needs for the fictional Happy Tails secure dog field business.
 
@@ -230,7 +230,7 @@ The below table details the test cases that were used and the results:
 - From the source section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
 - Any changes pushed to the master branch will take effect on the live project
-- The live link can be found here - ![Live Project](jen-selby.github.io.)
+- The live link can be found here - ![Live Project](https://jen-selby.github.io/MP1/)
 
 ### How to clone the repository
 
